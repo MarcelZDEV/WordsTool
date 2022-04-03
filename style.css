@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #3bcca4;
+    background-size: cover;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    text-align: center;
+}
+
+.words-box {
+    border: none;
+    overflow: auto;
+    outline: none;
+    width: 50%;
+    height: 250px;
+    resize: none;
+}
+
+header {
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 65px;
+    text-shadow: 1px 3px #ffffff;
+}
+
+.count {
+    font-size: 29px;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 1px 2px #ffffff;
+}
